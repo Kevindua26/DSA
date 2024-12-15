@@ -17,7 +17,14 @@ public class FindNumbersWithEvenNumberOfDigits {
     }
 
     static boolean EvenDigits(int num) {
-        return Count(num) % 2 == 0;
+        return Count2(num) % 2 == 0;
+    }
+
+    static int Count2(int num) {
+        if (num < 0) {
+            num *= -1;
+        }
+        return (int) (Math.log10(num) + 1);
     }
 
     static int Count(int num) {
