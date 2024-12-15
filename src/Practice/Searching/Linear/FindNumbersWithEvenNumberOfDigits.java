@@ -24,7 +24,7 @@ public class FindNumbersWithEvenNumberOfDigits {
         if (num < 0) {
             num *= -1;
         }
-        return (int) (Math.log10(num) + 1);
+        return (int)(Math.log10(num)) + 1;
     }
 
     static int Count(int num) {
