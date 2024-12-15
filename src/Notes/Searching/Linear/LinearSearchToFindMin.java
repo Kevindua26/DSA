@@ -1,6 +1,6 @@
 package Notes.Searching.Linear;
 
-public class LinearSearchFindMin {
+public class LinearSearchToFindMin {
     public static void main(String[] args) {
         int arr[] = {14, 53, 66, 32, 65, 2, 67};
 
