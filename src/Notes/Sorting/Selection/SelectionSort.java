@@ -28,9 +28,9 @@ public class SelectionSort {
         return min;
     }
 
-    static void swap(int[] arr, int i, int min) {
-        int temp = arr[i];
-        arr[i] = arr[min];
-        arr[min] = temp;
+    static void swap(int[] arr, int firstIndex, int secondIndex) {
+        int temp = arr[firstIndex];
+        arr[firstIndex] = arr[secondIndex];
+        arr[secondIndex] = temp;
     }
 }
